@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      .main {
+        width: 80vw;
+        /* border: 1px solid black; */
+        margin-left: 10vw;
+        position: relative;
+        margin-top: 100px;
+      }
+      .head {
+        height: 70px;
+        /* width: 80%; */
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        font-size: x-large;
+        position: fixed;
+        left: 154px;
+        right: 127px;
+        background-color: white;
+        top: 0px;
+        
+      }
+      .items {
+       
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .items img {
+        width: 95%;
+        height: 200px;
+      }
+      .div1 {
+        width: 25%;
+        /* border: 1px solid black; */
+        align-items: center;
+        text-align: center;
+      }
+      .div2{
+            text-align: center;
+            font-size: x-large;
+      }
+      .div2 img{
+           height: 450px;
+      }
+      .div2 p{
+        font-size: medium;
+      }
+      .div3{
+        display: flex;
+        justify-content: space-between;
+      }
+      .div3 div{
+            width: 30%;
+           
+            /* border: 2px solid black; */
+      }
+      [type=button]{
+        margin:5px;
+       
+        padding: 5px;
+        width: 80px;
+      }
+      .div3 div div{
+        width: 100%;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="head">
+        <div class="he"><ion-icon name="menu"></ion-icon></div>
+        <div class="he">My Food</div>
+        <div class="he">Mail</div>
+      </div>
+      <div class="items">
+        <div class="div1">
+          <img src="./multimedia/images/sandwich.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/cherries.jpg" alt="" />
+          <h1>Let Me Tell You About This Steak</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/wine.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/sandwich.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+      </div><br><br>
+      <div class="items">
+        <div class="div1">
+          <img src="./multimedia/images/cherries.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/sandwich.jpg" alt="" />
+          <h1>Let Me Tell You About This Steak</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/sandwich.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        <div class="div1">
+          <img src="./multimedia/images/wine.jpg" alt="" />
+          <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+          <p>
+            Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.
+          </p>
+        </div>
+        </div>
+        <div class="div2">
+            <p>About Me, The Food Man</p> 
+            <img style="width: 60%;"  src="./multimedia/images/chef.jpg" alt="">  
+            <h1>I am Who I Am!</h1><br>
+            <p>With Passion For Real, Good Food</p>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+        <div class="div3">
+            <div><h1>FOOTER</h1><br><br>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p></div>
+            <div ><h1>BLOG POSTS</h1>
+                <div style="display: flex;width: 80%; margin: 10px;padding: 10px;"><img style="width:50px ; " src="./multimedia/images/cherries.jpg" alt="">
+                <p>Lorem
+                    Sed mattis nunc</p></div>
+                <div style="display: flex; width: 80%;margin: 10px;padding: 10px;"><img style="width:50px ; " src="./multimedia/images/cherries.jpg" alt="">
+                <p>Ipsum
+                    Praes tinci sed</p></div>
+            </div>
+            <div ><h1>POPULAR TAGS</h1><br><br>
+            <div style="display: flex;flex-wrap: wrap;justify-content: space-around;"><input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel">
+            <input type="button" value="travel"></div></div>
+        </div>
+    </div>
+  </body>
+</html>
